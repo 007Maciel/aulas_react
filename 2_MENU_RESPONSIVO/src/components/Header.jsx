@@ -6,7 +6,7 @@ function Header() {
   return (
     <header>
         <div className="mobile">
-            <div className="menu_logo">
+            <div className={styles.menu_logo}>
                 <button>
                     <List size={32} />
                 </button>
